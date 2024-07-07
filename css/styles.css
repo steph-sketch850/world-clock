@@ -10,8 +10,8 @@ h1 {
 }
 
 h2 {
-    font-size: 28px;
     margin: 0 0 5px;
+    font-size: 28px;
 }
 
 select {
@@ -33,19 +33,10 @@ select {
 
 .city {
     display: flex;
-    justify-content: space-between;
     margin: 10px 0;
+    justify-content: space-between;
     padding: 30px 0;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
-}
-
-.time {
-    font-size: 36px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-
 }
 
 .city:last-child {
@@ -54,6 +45,11 @@ select {
 
 .date {
     opacity: 0.7;
+}
+
+.time {
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .time small {
